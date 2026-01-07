@@ -6,11 +6,11 @@ if t > 240:
 if t > 120:
     params['R0'] = 7.0
 
-if t > 120:  # New variant emerges
+if t < 120:  # New variant emerges
     params['R0'] = 7.0
     params['vaccine_efficacy'] *= 0.7  # Reduced efficacy
 
-if t > 240:  # Booster campaign
+if t < 240:  # Booster campaign
     booster_priority = {'Elderly': 1, 'Adults': 2}
     # Allocate boosters to VW compartment
 
