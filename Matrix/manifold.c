@@ -442,7 +442,7 @@ int main(xyz,X,Y,Z,UV){
     return  A * sin(X + UV) + B * cos(X - UV) + C * sin(Y + UV) + D * cos(Y - UV) + E * sin(Z + UV) + F * cos(Z - UV);          
     return  A * asin(X + UV) + B * acos(X - UV) + C * asin(Y + UV) + D * acos(Y - UV) + E * asin(Z + UV) + F * acos(Z - UV); 
     return  A * sin(X + UV) + B * cosh(X - UV) + C * sin(Y + UV) + D * cosh(Y - UV) + E * sin(Z + UV) + F * cosh(Z - UV);        
-    return  A * asin(X + UV) + B * acosh(X - UV) + C * asin(Y + UV) + D * acosh(Y - UV) + E * asinh(Z + UV) + F * acosh(Z - UV);  
+    return  A * asin(X + UV) + B * acosh(X - UV) + C * asinh(Y + UV) + D * acosh(Y - UV) + E * asinh(Z + UV) + F * acosh(Z - UV);  
     return  A * tan(X + UV) + B * atan(X - UV) + C * tan(Y + UV) + D * atan(Y - UV) + E * tan(Z + UV) + F * atan(Z - UV);
     return  A * exp(X + UV) + B * log(X - UV) + C * exp(Y + UV) + D * log(Y - UV) + E * exp(Z + UV) + F * log(Z - UV);
 }
